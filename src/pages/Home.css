@@ -1,0 +1,25 @@
+.hero {
+  padding: 120px 0 112px;
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  font-size: clamp(3.5rem, 16vw, 9rem);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  color: var(--color-primary);
+}
+
+.hero__tagline {
+  max-width: 520px;
+  margin: 0 auto 40px;
+  color: var(--color-text-secondary);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
